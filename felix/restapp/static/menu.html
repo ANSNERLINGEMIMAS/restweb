@@ -1,55 +1,69 @@
-menu.html
-
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Menu</title>
-    </head>
-    <body>
-        <style>
-             body{
-            background-image: url("restau.png");
-            background-size:cover ;
-           
-        }
-        </style>
-        <div class="nav-list">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - THE FIRTHOS RESTAURANT</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: lightblue; margin: 0; color: #333; }
+    .header, .footer { background: purple; color: #fff; text-align: center; padding: 1rem; }
+    .header nav ul { list-style: none; display: flex; justify-content: center; padding: 0; }
+    .header nav ul li { margin: 0 1rem; }
+    .header nav ul li a { color: #fff; text-decoration: none; font-size: 1.1rem; }
+    .menu { padding: 2rem; text-align: center; }
+    .menu ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+    .menu ul li { background: #fff; border: 1px solid #ddd; padding: 1rem; border-radius: 5px; }
+    .menu ul li:hover { transform: scale(1.05); transition: transform 0.3s; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Tasty Menu</h1>
+    <nav>
+      <ul>
+        <li><a href="res.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="adminis.html">Administration</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+<section class="menu">
+    <h2>Our Menu</h2>
+    <ul>
+        <li>
+            <img src="dessert 1.jpg" alt="CUP CAKE" width="150" height="125">
+            CUP CAKE - $30
+        </li>
+        <li>
+            <img src="desset 2.jpg" alt="FALLODA" width="150" height="125">
+            FALLODA - $110
+        </li>
+        <li>
+            <img src="dessert 3.jpg" alt="LEMON CAKE" width="150" height="125">
+            LEMON CAKE- $95
+        </li>
+        <li>
+            <img src="dese 4.jpg" alt="GULAB JAMUN" width="150" height="100">
+            GULAB JAMUN - $40
+        </li>
+        <li>
+            <img src="desse 5.jpg" alt="CREAMY CAKE" width="150" height="125">
+            CREAMY CAKE - $150
+        </li>
+        <li>
+            <img src="panneer.jpg" alt="PANEER" width="150" height="125">
+            PANEER - $200
+        </li>
+        <li>
+            <img src="pizza.jpg" alt="PIZZA" width="150" height="125">
+            PIZZA - $999
+        </li>
+        <li>
+            <img src="chicken biriyani.jpg" alt="CHICKEN BIRIYANI " width="150" height="125">
+            CHICKEN BIRIYANI - $200
+        </li>
         
-            <a href="rest.html">Home</a>
-            <a href="contact.html">contact</a>
-            <a href="menu.html">menu</a>
-            <a href="adminis.html">Administration</a>
-    
-            </div>
-        <center>
-        <h1 style="color:ivory">FOOD MENU</h1>
-    </center>
-    <table>
-        <tr>
-        <th><img src="dessert 1.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(194, 203, 215); font-size: larger;">CUP CAKE<br>Rate:30/-</td><br></tr>
-        <tr>
-        <th><img src="desset 2.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(191, 204, 214); font-size: larger;">FALLODA<br>Rate:110/-</td></tr><br>
-        <tr>
-        <th><img src="dessert 3.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(211, 219, 225); font-size: larger;">LEMON CAKE<br>Rate: 95/-</td><br>></tr>
-        <tr>
-        <th><img src="dese 4.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(215, 221, 225); font-size: larger;">GULAB JAMUN<br>Rate: 40-</td><br></tr>
-        <tr>
-        <th><img src="desse 5.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(201, 207, 213); font-size: larger;">CREAMY CAKE<br>Rate: 150/-</td><br></tr>
-        <tr>
-        <th><img src="panneer.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(227, 233, 238); font-size: larger;">PANNER<br>Rate: 200/-</td><br></tr>
-        <tr>
-        <th><img src="pizza.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(235, 241, 247); font-size: larger;">PIZZA<br>Rate: 999/-</td><br></tr>
-        <tr>
-        <th><img src="chicken biriyani.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(220, 228, 234); font-size: larger;">CHICKEN BIRIYANI<br>Rate: 200/-</td><br></tr>
-        <tr>
-        <th><img src="food 3.jpg" style="height: 300px; width: 400px;"></th><td style="color: rgb(220, 228, 234); font-size: larger;">Chicken tikka<br>Rate: 190/-</td><br></tr>
-            <tr>
+    </ul>
+</section>
         
-    </table>
-
-
-
-        
-    </body>
-</html>
-
