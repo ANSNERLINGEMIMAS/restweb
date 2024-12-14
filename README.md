@@ -409,11 +409,10 @@ adminis.html
 
 
 ## OUTPUT:
-![alt text](1..png)
-![alt text](2..png)
-![alt text](3..png)
-![alt text](4..png)
-![alt text](5..png)
-
+![alt text](1.-1.png)
+![alt text](2.-1.png)
+![alt text](3.-1.png)
+![alt text](4.-1.png)
+![alt text](5.-1.png)
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
