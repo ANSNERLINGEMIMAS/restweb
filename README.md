@@ -45,7 +45,7 @@ rest.html
         .nav-list{
             position: absolute;
             top: 30px;
-            left: 80%;
+            left: 70%;
             transform:  translatex(10%);
         }
         .nav-list a{
@@ -412,7 +412,7 @@ adminis.html
 
 
 ## OUTPUT:
-![alt text](1...png)
+![alt text](1.5.png)
 ![alt text](2.-1.png)
 ![alt text](3.-1.png)
 ![alt text](4.-1.png)
