@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-## Date:13.12.2024
+## Date:14.12.2024
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -101,6 +101,9 @@ rest.html
         <tr>
             <td><h4 style="font-size: larger;"><center>HEALER TO STRESS</center></h4></td>
         </tr>
+         <footer align="center" id="copywrite">
+            Designed and developed by ANS NERLING EMIMA   &copy 2024
+        </footer>
     </body>        
 </html>
 
@@ -409,7 +412,7 @@ adminis.html
 
 
 ## OUTPUT:
-![alt text](1.-1.png)
+![alt text](1...png)
 ![alt text](2.-1.png)
 ![alt text](3.-1.png)
 ![alt text](4.-1.png)
